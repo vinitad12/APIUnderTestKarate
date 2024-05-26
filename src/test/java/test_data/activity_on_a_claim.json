@@ -1,0 +1,1781 @@
+{
+    "data": {
+      "attributes": {
+        "activityPattern": "string",
+        "activityType": {
+          "code": "string",
+          "name": "string"
+        },
+        "approvalIssue": "string",
+        "approvalRationale": "string",
+        "assignedByUser": "quis",
+        "assignedGroup": "quis",
+        "assignedQueue": "quis",
+        "assignedUser": "quis",
+        "assignmentStatus": {
+          "code": "string",
+          "name": "string"
+        },
+        "autopilotHandlingDecision": {
+          "code": "string",
+          "name": "string"
+        },
+        "autopilotId": "string",
+        "autopilotPurpose": {
+          "code": "string",
+          "name": "string"
+        },
+        "closeUser": "quis",
+        "coverageIssues": [
+          {
+            "coverageSubtype": {
+              "code": "string",
+              "name": "string"
+            },
+            "reason": "string",
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          }
+        ],
+        "description": "string",
+        "dueDate": "2019-08-24T14:15:22Z",
+        "endDate": "2019-08-24T14:15:22Z",
+        "escalationDate": "2019-08-24T14:15:22Z",
+        "externallyOwned": true,
+        "importance": {
+          "code": "string",
+          "name": "string"
+        },
+        "initialAssignment": {
+          "autoAssign": true,
+          "claimOwner": true,
+          "groupId": "string",
+          "queueId": "string",
+          "userId": "string"
+        },
+        "mandatory": true,
+        "priority": {
+          "code": "string",
+          "name": "string"
+        },
+        "recurring": true,
+        "relatedTo": "quis",
+        "startDate": "2019-08-24T14:15:22Z",
+        "status": {
+          "code": "string",
+          "name": "string"
+        },
+        "subject": "string"
+      },
+      "checksum": "string",
+      "links": {
+        "property1": {
+          "href": "string",
+          "methods": [
+            "string"
+          ]
+        },
+        "property2": {
+          "href": "string",
+          "methods": [
+            "string"
+          ]
+        }
+      },
+      "method": "post",
+      "refid": "string",
+      "related": {
+        "property1": {
+          "count": 0,
+          "data": [
+            "quis"
+          ],
+          "total": 0
+        },
+        "property2": {
+          "count": 0,
+          "data": [
+            "quis"
+          ],
+          "total": 0
+        }
+      },
+      "uri": "string"
+    },
+    "included": {
+      "AssessmentContentItem": [
+        {
+          "attributes": {
+            "amountAfterLimit": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "contentCategory": {
+              "code": "string",
+              "name": "string"
+            },
+            "contentSchedule": {
+              "code": "string",
+              "name": "string"
+            },
+            "dateAcquired": "2019-08-24T14:15:22Z",
+            "depreciationPercentage": "string",
+            "description": "string",
+            "incidentOrder": 0,
+            "itemComment": "string",
+            "numberOfItems": 0,
+            "purchaseCost": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "replacementValue": {
+              "amount": "string",
+              "currency": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "AssessmentSummary": [
+        {
+          "attributes": {
+            "category": "string",
+            "exposure": "quis",
+            "normalizedScore": "string",
+            "rawAssessmentReferenceId": "string",
+            "recommendedActionCode": "string",
+            "recommendedActionDescription": "string",
+            "score": "string",
+            "scoreDate": "2019-08-24T14:15:22Z",
+            "scorePercentile": "string",
+            "tapId": "string",
+            "tapSubtypeId": "string"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "BaggageIncident": [
+        {
+          "attributes": {
+            "baggageMissingFrom": "2019-08-24T14:15:22Z",
+            "baggageRecoveredOn": "2019-08-24T14:15:22Z",
+            "baggageType": {
+              "code": "string",
+              "name": "string"
+            },
+            "carrierCompensated": true,
+            "carrierCompensatedAmount": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "delayOnly": true,
+            "description": "string",
+            "incidentOwner": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "relatedTripRiskUnit": "quis",
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "ClaimContact": [
+        {
+          "attributes": {
+            "addressBookUID": "string",
+            "companyName": "string",
+            "companyNameKanji": "string",
+            "contactSubtype": "AutoRepairShop",
+            "editableRoles": [
+              {
+                "active": true,
+                "comments": "string",
+                "relatedTo": "quis",
+                "role": {
+                  "code": "string",
+                  "name": "string"
+                }
+              }
+            ],
+            "emailAddress1": "string",
+            "emailAddress2": "string",
+            "primaryAddress": {
+              "addressLine1": "string",
+              "addressLine2": "string",
+              "addressLine3": "string",
+              "addressType": {
+                "code": "string",
+                "name": "string"
+              },
+              "city": "string",
+              "country": "AE",
+              "description": "string",
+              "emirate": {
+                "code": "string",
+                "name": "string"
+              },
+              "spatialPoint": {
+                "latitude": "string",
+                "longitude": "string"
+              },
+              "validUntil": "2019-08-24T14:15:22Z"
+            },
+            "primaryLanguage": {
+              "code": "string",
+              "name": "string"
+            },
+            "primaryLocale": {
+              "code": "string",
+              "name": "string"
+            },
+            "syncAddressBookUID": "string",
+            "taxId": "string",
+            "workPhone": {
+              "countryCode": {
+                "code": "string",
+                "name": "string"
+              },
+              "extension": "string",
+              "number": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "DwellingIncident": [
+        {
+          "attributes": {
+            "automationPath": {
+              "code": "string",
+              "name": "string"
+            },
+            "damagedAreaSize": 0,
+            "description": "string",
+            "dwellingRoomDamages": [
+              {
+                "numberOfRooms": 0,
+                "roomType": {
+                  "code": "string",
+                  "name": "string"
+                }
+              }
+            ],
+            "fireProtectionAvailable": true,
+            "incidentOwner": "quis",
+            "location": {
+              "address": {
+                "addressLine1": "string",
+                "addressLine2": "string",
+                "addressLine3": "string",
+                "city": "string",
+                "country": "AE",
+                "description": "string",
+                "emirate": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "policyLabel": "string",
+                "spatialPoint": {
+                  "latitude": "string",
+                  "longitude": "string"
+                }
+              },
+              "buildings": [
+                {
+                  "buildingNumber": "string",
+                  "notes": "string"
+                }
+              ],
+              "locationNumber": "string",
+              "notes": "string",
+              "policySystemId": "string",
+              "primaryLocation": true
+            },
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "materialsDamaged": "string",
+            "numberOfPeopleOnPolicy": 0,
+            "occupancyType": {
+              "code": "string",
+              "name": "string"
+            },
+            "propertySize": 0,
+            "severity": {
+              "code": "string",
+              "name": "string"
+            },
+            "yearBuilt": "2019-08-24T14:15:22Z",
+            "yearsInHome": 0
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "Exposure": [
+        {
+          "attributes": {
+            "assignedByUser": "quis",
+            "assignedGroup": "quis",
+            "assignedQueue": "quis",
+            "assignedUser": "quis",
+            "assignmentStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "autopilotStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "baggageIncident": "quis",
+            "claimOrder": 0,
+            "claimant": "quis",
+            "claimantType": {
+              "code": "string",
+              "name": "string"
+            },
+            "closedOutcome": {
+              "code": "string",
+              "name": "string"
+            },
+            "contactPermitted": true,
+            "coverage": "quis",
+            "coverageSubtype": {
+              "code": "string",
+              "name": "string"
+            },
+            "createdVia": {
+              "code": "string",
+              "name": "string"
+            },
+            "deductible": {
+              "amount": {
+                "amount": "string",
+                "currency": "string"
+              },
+              "amountApplied": {
+                "amount": "string",
+                "currency": "string"
+              },
+              "amountRemaining": {
+                "amount": "string",
+                "currency": "string"
+              },
+              "waived": true
+            },
+            "dwellingIncident": "quis",
+            "externalStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "fixedPropertyIncident": "quis",
+            "generalIncident": "quis",
+            "injuryIncident": "quis",
+            "jurisdiction": {
+              "code": "string",
+              "name": "string"
+            },
+            "livingExpensesIncident": "quis",
+            "lossCategory": {
+              "code": "string",
+              "name": "string"
+            },
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "otherCoverage": true,
+            "otherStructureIncident": "quis",
+            "primaryCoverage": {
+              "code": "string",
+              "name": "string"
+            },
+            "progress": {
+              "code": "string",
+              "name": "string"
+            },
+            "propertyContentsIncident": "quis",
+            "reopenedReason": {
+              "code": "string",
+              "name": "string"
+            },
+            "securityLevel": {
+              "code": "string",
+              "name": "string"
+            },
+            "segment": {
+              "code": "string",
+              "name": "string"
+            },
+            "state": {
+              "code": "string",
+              "name": "string"
+            },
+            "strategy": {
+              "code": "string",
+              "name": "string"
+            },
+            "tier": {
+              "code": "string",
+              "name": "string"
+            },
+            "tripIncident": "quis",
+            "type": {
+              "code": "string",
+              "name": "string"
+            },
+            "validationLevel": {
+              "code": "string",
+              "name": "string"
+            },
+            "vehicleIncident": "quis"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "FixedPropertyIncident": [
+        {
+          "attributes": {
+            "automationPath": {
+              "code": "string",
+              "name": "string"
+            },
+            "description": "string",
+            "incidentOwner": "quis",
+            "location": {
+              "address": {
+                "addressLine1": "string",
+                "addressLine2": "string",
+                "addressLine3": "string",
+                "city": "string",
+                "country": "AE",
+                "description": "string",
+                "emirate": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "policyLabel": "string",
+                "spatialPoint": {
+                  "latitude": "string",
+                  "longitude": "string"
+                }
+              },
+              "buildings": [
+                {
+                  "buildingNumber": "string",
+                  "notes": "string"
+                }
+              ],
+              "locationNumber": "string",
+              "notes": "string",
+              "policySystemId": "string",
+              "primaryLocation": true
+            },
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "occupancyType": {
+              "code": "string",
+              "name": "string"
+            },
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "GeneralIncident": [
+        {
+          "attributes": {
+            "description": "string",
+            "incidentOwner": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "InjuryIncident": [
+        {
+          "attributes": {
+            "ambulanceUsed": true,
+            "automationPath": {
+              "code": "string",
+              "name": "string"
+            },
+            "bodyParts": [
+              {
+                "detailedBodyPart": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "detailedBodyPartDesc": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "impairmentPercentage": 0,
+                "ordering": 0,
+                "primaryBodyPart": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "sideOfBody": {
+                  "code": "string",
+                  "name": "string"
+                }
+              }
+            ],
+            "dateOfDeath": "2019-08-24T14:15:22Z",
+            "description": "string",
+            "detailedInjuryType": {
+              "code": "string",
+              "name": "string"
+            },
+            "disabledDueToAccident": {
+              "code": "string",
+              "name": "string"
+            },
+            "generalInjuryType": {
+              "code": "string",
+              "name": "string"
+            },
+            "injuredPerson": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "lostWages": true,
+            "primaryDoctor": "quis",
+            "severity": {
+              "code": "string",
+              "name": "string"
+            },
+            "treatmentType": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "LivingExpensesIncident": [
+        {
+          "attributes": {
+            "automationPath": {
+              "code": "string",
+              "name": "string"
+            },
+            "description": "string",
+            "incidentOwner": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "startDate": "2019-08-24T14:15:22Z"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "Matter": [
+        {
+          "attributes": {
+            "adDamnumAmount": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "adDamnumSpecified": true,
+            "arbitrationDate": "2019-08-24T14:15:22Z",
+            "arbitrationRoom": "string",
+            "assignedByUser": "quis",
+            "assignedGroup": "quis",
+            "assignedQueue": "quis",
+            "assignedUser": "quis",
+            "assignmentStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "caseNumber": "string",
+            "courtDistrict": {
+              "code": "string",
+              "name": "string"
+            },
+            "courtType": {
+              "code": "string",
+              "name": "string"
+            },
+            "defenseAppointmentDate": "2019-08-24T14:15:22Z",
+            "docketNumber": "string",
+            "fileDate": "2019-08-24T14:15:22Z",
+            "finalLegalCost": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "finalSettlementCost": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "finalSettlementDate": "2019-08-24T14:15:22Z",
+            "hearingDate": "2019-08-24T14:15:22Z",
+            "hearingRoom": "string",
+            "legalSpecialty": {
+              "code": "string",
+              "name": "string"
+            },
+            "matterType": {
+              "code": "string",
+              "name": "string"
+            },
+            "mediationDate": "2019-08-24T14:15:22Z",
+            "mediationRoom": "string",
+            "methodServed": {
+              "code": "string",
+              "name": "string"
+            },
+            "name": "string",
+            "primaryCause": {
+              "code": "string",
+              "name": "string"
+            },
+            "punitiveAmount": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "punitiveDamages": true,
+            "reopenedReason": {
+              "code": "string",
+              "name": "string"
+            },
+            "resolution": {
+              "code": "string",
+              "name": "string"
+            },
+            "responseDue": "2019-08-24",
+            "responseFiled": "2019-08-24",
+            "room": "string",
+            "sentToDefenseDate": "2019-08-24T14:15:22Z",
+            "serviceDate": "2019-08-24",
+            "subrogationRelated": true,
+            "trialDate": "2019-08-24T14:15:22Z",
+            "validationLevel": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "Note": [
+        {
+          "attributes": {
+            "author": "quis",
+            "body": "string",
+            "confidential": true,
+            "relatedTo": "quis",
+            "securityType": {
+              "code": "string",
+              "name": "string"
+            },
+            "subject": "string",
+            "topic": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "OtherStructureIncident": [
+        {
+          "attributes": {
+            "description": "string",
+            "fencesDamaged": true,
+            "incidentOwner": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "PropertyContentsIncident": [
+        {
+          "attributes": {
+            "description": "string",
+            "incidentOwner": "quis",
+            "location": {
+              "address": {
+                "addressLine1": "string",
+                "addressLine2": "string",
+                "addressLine3": "string",
+                "city": "string",
+                "country": "AE",
+                "description": "string",
+                "emirate": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "policyLabel": "string",
+                "spatialPoint": {
+                  "latitude": "string",
+                  "longitude": "string"
+                }
+              },
+              "buildings": [
+                {
+                  "buildingNumber": "string",
+                  "notes": "string"
+                }
+              ],
+              "locationNumber": "string",
+              "notes": "string",
+              "policySystemId": "string",
+              "primaryLocation": true
+            },
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "severity": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "PropertyContentsScheduledItem": [
+        {
+          "attributes": {
+            "propertyItem": "quis"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "ServiceRequest": [
+        {
+          "attributes": {
+            "assignedGroup": "quis",
+            "assignedUser": "quis",
+            "claim": "quis",
+            "exposure": "quis",
+            "incident": "quis",
+            "instruction": {
+              "customer": "quis",
+              "instructionText": "string",
+              "serviceAddress": {
+                "addressLine1": "string",
+                "addressLine2": "string",
+                "addressLine3": "string",
+                "city": "string",
+                "country": "AE",
+                "description": "string",
+                "emirate": {
+                  "code": "string",
+                  "name": "string"
+                },
+                "policyLabel": "string",
+                "spatialPoint": {
+                  "latitude": "string",
+                  "longitude": "string"
+                }
+              },
+              "services": [
+                {
+                  "code": "string",
+                  "parent": {
+                    "code": "string",
+                    "displayName": "string"
+                  }
+                }
+              ]
+            },
+            "kind": {
+              "code": "string",
+              "name": "string"
+            },
+            "latestQuote": {
+              "approvedBy": "quis",
+              "description": "string",
+              "expectedDaysToPerformService": 0,
+              "lineItems": [
+                {
+                  "amount": {
+                    "amount": "string",
+                    "currency": "string"
+                  },
+                  "category": {
+                    "code": "string",
+                    "name": "string"
+                  },
+                  "description": "string"
+                }
+              ],
+              "paymentDate": "2019-08-24",
+              "paymentDateTime": "2019-08-24T14:15:22Z",
+              "referenceNumber": "string",
+              "source": {
+                "code": "string",
+                "name": "string"
+              },
+              "status": {
+                "code": "string",
+                "name": "string"
+              },
+              "subtype": {
+                "code": "string",
+                "name": "string"
+              },
+              "total": {
+                "amount": "string",
+                "currency": "string"
+              }
+            },
+            "nextStep": {
+              "defaultOperation": "string",
+              "name": "string"
+            },
+            "progress": {
+              "code": "string",
+              "name": "string"
+            },
+            "quoteStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "referenceNumber": "string",
+            "requestedQuoteCompletionDate": "2019-08-24",
+            "requestedQuoteCompletionDateTime": "2019-08-24T14:15:22Z",
+            "requestedServiceCompletionDate": "2019-08-24",
+            "requestedServiceCompletionDateTime": "2019-08-24T14:15:22Z",
+            "specialist": "quis",
+            "specialistCommMethod": {
+              "code": "string",
+              "name": "string"
+            },
+            "tier": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "TripAccommodation": [
+        {
+          "attributes": {
+            "address": {
+              "addressLine1": "string",
+              "addressLine2": "string",
+              "addressLine3": "string",
+              "city": "string",
+              "country": "AE",
+              "description": "string",
+              "emirate": {
+                "code": "string",
+                "name": "string"
+              },
+              "policyLabel": "string",
+              "spatialPoint": {
+                "latitude": "string",
+                "longitude": "string"
+              }
+            },
+            "agentFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "assessment": {
+              "code": "string",
+              "name": "string"
+            },
+            "cancelOnly": true,
+            "cancellationFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "checkinDateTime": "2019-08-24T14:15:22Z",
+            "checkoutDateTime": "2019-08-24T14:15:22Z",
+            "otherFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "paidAmount": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "propertyName": "string",
+            "reasonForCancellation": "string",
+            "reasonForDenial": "string"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "TripIncident": [
+        {
+          "attributes": {
+            "description": "string",
+            "incidentOwner": "quis",
+            "severity": {
+              "code": "string",
+              "name": "string"
+            },
+            "tripRiskUnit": "quis"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "TripSegment": [
+        {
+          "attributes": {
+            "agentFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "arrivalDateTime": "2019-08-24T14:15:22Z",
+            "assessment": {
+              "code": "string",
+              "name": "string"
+            },
+            "cancelOnly": true,
+            "cancellationFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "carrierName": "string",
+            "carrierNumber": "string",
+            "departureDateTime": "2019-08-24T14:15:22Z",
+            "otherFees": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "paidAmount": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "portOfDisembarkation": "string",
+            "portOfEmbarkation": "string",
+            "reasonForCancellation": "string",
+            "reasonForDenial": "string",
+            "transportType": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "UnverifiedPropertyItem": [
+        {
+          "attributes": {
+            "appraisedValue": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "description": "string"
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ],
+      "VehicleIncident": [
+        {
+          "attributes": {
+            "airbagsDeployed": true,
+            "automationPath": {
+              "code": "string",
+              "name": "string"
+            },
+            "childSafetySeatStatus": {
+              "code": "string",
+              "name": "string"
+            },
+            "collision": true,
+            "collisionPoint": {
+              "code": "string",
+              "name": "string"
+            },
+            "damageDescription": "string",
+            "driver": "quis",
+            "equipmentFailure": true,
+            "incidentOwner": "quis",
+            "lossParty": {
+              "code": "string",
+              "name": "string"
+            },
+            "numOccupants": 0,
+            "passengers": [
+              "quis"
+            ],
+            "propertyDamageDescription": "string",
+            "propertyValue": {
+              "amount": "string",
+              "currency": "string"
+            },
+            "safeToDrive": true,
+            "severity": {
+              "code": "string",
+              "name": "string"
+            },
+            "theft": true,
+            "totalLoss": true,
+            "valuationRequired": {
+              "code": "string",
+              "name": "string"
+            },
+            "valuationSource": {
+              "code": "string",
+              "name": "string"
+            },
+            "vehicle": {
+              "color": "string",
+              "licensePlate": "string",
+              "make": "string",
+              "manufacturer": {
+                "code": "string",
+                "name": "string"
+              },
+              "model": "string",
+              "policySystemId": "string",
+              "state": {
+                "code": "string",
+                "name": "string"
+              },
+              "style": {
+                "code": "string",
+                "name": "string"
+              },
+              "vin": "string",
+              "year": 0
+            },
+            "vehicleDirection": {
+              "code": "string",
+              "name": "string"
+            },
+            "vehicleParked": true,
+            "vehicleType": {
+              "code": "string",
+              "name": "string"
+            },
+            "vehicleUseReason": {
+              "code": "string",
+              "name": "string"
+            }
+          },
+          "checksum": "string",
+          "links": {
+            "property1": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            },
+            "property2": {
+              "href": "string",
+              "methods": [
+                "string"
+              ]
+            }
+          },
+          "method": "post",
+          "refid": "string",
+          "related": {
+            "property1": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            },
+            "property2": {
+              "count": 0,
+              "data": [
+                "quis"
+              ],
+              "total": 0
+            }
+          },
+          "uri": "string"
+        }
+      ]
+    }
+  }
